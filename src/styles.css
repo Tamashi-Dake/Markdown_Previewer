@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: turquoise;
+}
+#wapper {
+  display: flex;
+  gap: 10vw;
+}
+#wapper > * {
+  min-width: 45%;
+  max-width: 45%;
+}
+#text {
+}
+#preview {
+  overflow: scroll;
+  background-color: beige;
+}
+#header,
+#footer {
+  text-align: center;
+}
